@@ -1,0 +1,42 @@
+[
+  {
+    "id": "U01",
+    "question": "Does the company offer stock options?",
+    "note": "not in the policy document - must refuse, not invent"
+  },
+  {
+    "id": "U02",
+    "question": "What is the dress code for Fridays?",
+    "note": "not in the policy document - must refuse, not invent"
+  },
+  {
+    "id": "U03",
+    "question": "How much is the annual performance bonus?",
+    "note": "not in the policy document - must refuse, not invent"
+  },
+  {
+    "id": "U04",
+    "question": "Is there a free cafeteria lunch?",
+    "note": "not in the policy document - must refuse, not invent"
+  },
+  {
+    "id": "U05",
+    "question": "What is the notice period for resignation?",
+    "note": "not in the policy document - must refuse, not invent"
+  },
+  {
+    "id": "U06",
+    "question": "Does Acme provide health insurance for parents?",
+    "note": "not in the policy document - must refuse, not invent"
+  },
+  {
+    "id": "U07",
+    "question": "What is the capital of France?",
+    "note": "not in the policy document - must refuse, not invent"
+  },
+  {
+    "id": "U08",
+    "question": "Who is the CEO of Acme Corp?",
+    "note": "not in the policy document - must refuse, not invent"
+  }
+]

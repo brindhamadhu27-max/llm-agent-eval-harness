@@ -1,0 +1,186 @@
+[
+  {
+    "id": "G01",
+    "category": "leave",
+    "question": "How many casual leaves do I get in a year?",
+    "expected_answer": "12 days of casual leave per year",
+    "expected_keywords": [
+      "12",
+      "casual"
+    ]
+  },
+  {
+    "id": "G02",
+    "category": "leave",
+    "question": "How many days of sick leave do I get?",
+    "expected_answer": "8 days of sick leave per year",
+    "expected_keywords": [
+      "8",
+      "sick"
+    ]
+  },
+  {
+    "id": "G03",
+    "category": "leave",
+    "question": "When is a medical certificate required for sick leave?",
+    "expected_answer": "for sick leave longer than 2 consecutive days",
+    "expected_keywords": [
+      "2 consecutive"
+    ]
+  },
+  {
+    "id": "G04",
+    "category": "leave",
+    "question": "How many days of earned leave can be carried forward?",
+    "expected_answer": "up to a maximum of 30 days",
+    "expected_keywords": [
+      "30"
+    ]
+  },
+  {
+    "id": "G05",
+    "category": "leave",
+    "question": "How long is maternity leave?",
+    "expected_answer": "26 weeks of paid maternity leave",
+    "expected_keywords": [
+      "26",
+      "weeks"
+    ]
+  },
+  {
+    "id": "G06",
+    "category": "leave",
+    "question": "How many days of paternity leave are given?",
+    "expected_answer": "10 working days of paternity leave",
+    "expected_keywords": [
+      "10"
+    ]
+  },
+  {
+    "id": "G07",
+    "category": "leave",
+    "question": "How in advance must leave requests be submitted?",
+    "expected_answer": "at least 3 working days in advance",
+    "expected_keywords": [
+      "3 working days"
+    ]
+  },
+  {
+    "id": "G08",
+    "category": "expense",
+    "question": "What is the daily meal allowance during business travel?",
+    "expected_answer": "INR 1,500 per day",
+    "expected_keywords": [
+      "1500"
+    ]
+  },
+  {
+    "id": "G09",
+    "category": "expense",
+    "question": "What is the hotel reimbursement limit per night in metro cities?",
+    "expected_answer": "INR 8,000 per night in metro cities",
+    "expected_keywords": [
+      "8000"
+    ]
+  },
+  {
+    "id": "G10",
+    "category": "expense",
+    "question": "Within how many days must expense claims be submitted?",
+    "expected_answer": "within 30 days of the expense",
+    "expected_keywords": [
+      "30 days"
+    ]
+  },
+  {
+    "id": "G11",
+    "category": "expense",
+    "question": "Which expense claims need director approval?",
+    "expected_answer": "claims above INR 25,000",
+    "expected_keywords": [
+      "25000"
+    ]
+  },
+  {
+    "id": "G12",
+    "category": "expense",
+    "question": "Which class of air travel is mandatory for short flights?",
+    "expected_answer": "economy class is mandatory for flights shorter than 6 hours",
+    "expected_keywords": [
+      "economy"
+    ]
+  },
+  {
+    "id": "G13",
+    "category": "wfh",
+    "question": "How many days a week can I work from home?",
+    "expected_answer": "up to 2 days per week with manager approval",
+    "expected_keywords": [
+      "2 days"
+    ]
+  },
+  {
+    "id": "G14",
+    "category": "wfh",
+    "question": "Can a new joiner work from home in the first month?",
+    "expected_answer": "not allowed during the first 90 days after joining",
+    "expected_keywords": [
+      "not allowed"
+    ]
+  },
+  {
+    "id": "G15",
+    "category": "wfh",
+    "question": "What are the core hours for working from home?",
+    "expected_answer": "core hours of 11 AM to 4 PM",
+    "expected_keywords": [
+      "11 am",
+      "4 pm"
+    ]
+  },
+  {
+    "id": "G16",
+    "category": "security",
+    "question": "What is the minimum password length?",
+    "expected_answer": "14 characters",
+    "expected_keywords": [
+      "14"
+    ]
+  },
+  {
+    "id": "G17",
+    "category": "security",
+    "question": "How often must passwords be changed?",
+    "expected_answer": "every 90 days",
+    "expected_keywords": [
+      "90 days"
+    ]
+  },
+  {
+    "id": "G18",
+    "category": "security",
+    "question": "Is multi-factor authentication required?",
+    "expected_answer": "MFA is mandatory for all company accounts",
+    "expected_keywords": [
+      "mandatory"
+    ]
+  },
+  {
+    "id": "G19",
+    "category": "security",
+    "question": "Within how long must a security incident be reported?",
+    "expected_answer": "within 24 hours",
+    "expected_keywords": [
+      "24 hours"
+    ]
+  },
+  {
+    "id": "G20",
+    "category": "security",
+    "question": "Where should security incidents be reported?",
+    "expected_answer": "security team at security@acme-example.com",
+    "expected_keywords": [
+      "security@acme-example.com"
+    ]
+  }
+]

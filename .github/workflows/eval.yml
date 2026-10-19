@@ -1,0 +1,25 @@
+name: llm-eval
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "0 3 * * 1"      # weekly run -> quality-over-time / drift signal
+
+jobs:
+  eval:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - name: Unit + scenario tests (offline, deterministic)
+        run: pytest -q
+      - name: Evaluation with quality gates (fails the build if a metric regresses)
+        run: python run_eval.py --provider mock
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: eval-report
+          path: reports/

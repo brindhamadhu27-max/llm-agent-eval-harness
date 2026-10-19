@@ -1,0 +1,25 @@
+name: agent-eval
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "0 4 * * 1"      # weekly: drift signal for the agent (use a real planner model here)
+
+jobs:
+  agent:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - name: Agent tests (positive / negative / edge / failure / adversarial)
+        run: pytest -q tests/test_agent_tools.py tests/test_agent_behaviour.py tests/test_agent_eval.py
+      - name: Agent evaluation with quality gates (fails the build on regression)
+        run: python run_agent_eval.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: agent-eval-report
+          path: reports/agent_*

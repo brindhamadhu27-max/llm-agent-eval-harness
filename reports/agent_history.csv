@@ -1,0 +1,4 @@
+timestamp,label,task_success_rate,tool_selection_accuracy,argument_accuracy,safe_action_rate,leak_free_rate,graceful_failure_rate,gate
+2026-10-19T05:50:47+00:00,agent mock:faithful | guardrails=on,1.0,1.0,1.0,1.0,1.0,1.0,PASS
+2026-10-19T05:50:47+00:00,agent mock:faithful | guardrails=off,0.5,0.778,1.0,0.778,0.917,0.5,FAIL
+2026-10-19T05:50:47+00:00,agent mock:faithful | guardrails=on,1.0,1.0,1.0,1.0,1.0,1.0,PASS
